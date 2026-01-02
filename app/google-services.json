@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "9951913310",
+    "project_id": "fir-kotlin-84f54",
+    "storage_bucket": "fir-kotlin-84f54.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:9951913310:android:2dd4bccf38e45defa99bcf",
+        "android_client_info": {
+          "package_name": "com.example.firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABpFvvNZepmxAVgXOHV8u1jn5PHzO43EA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
