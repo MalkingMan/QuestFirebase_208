@@ -2,9 +2,9 @@
     <string name="app_name">Data Firebase</string>
     <string name="entry_siswa">Tambah Siswa</string>
     <string name="back">back</string>
-    <string name="nama">Nama Siswa*</string>
-    <string name="alamat">Alamat Siswa*</string>
-    <string name="telpon">Telpon Siswa*</string>
+    <string name="nama">Nama Siswa</string>
+    <string name="alamat">Alamat Siswa</string>
+    <string name="telpon">Telpon Siswa</string>
     <string name="nama1">Nama Siswa  :</string>
     <string name="alamat1">Alamat Siswa :</string>
     <string name="telpon1">Telpon Siswa :</string>
@@ -24,15 +24,6 @@
     <string name="deskripsi_no_item">
         Tidak ada data Siswa. Tap + untuk menambah data
     </string>
+    <string name="loading_failed">Gagal memuat data</string>
 </resources>
 
-
-
-    dimens.xml
-    <?xml version="1.0" encoding="utf-8"?>
-<resources>
-<dimen name="padding_small">8dp</dimen>
-<dimen name="padding_medium">16dp</dimen>
-<dimen name="padding_large">20dp</dimen>
-<dimen name="padding_extra_large">32dp</dimen>
-</resources>
