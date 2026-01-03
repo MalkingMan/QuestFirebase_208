@@ -21,3 +21,16 @@ data class EditUiState(
     val error: String? = null
 )
 
+class EditViewModel(
+    savedStateHandle: SavedStateHandle,
+    private val repositorySiswa: RepositorySiswa
+) : ViewModel() {
+
+    private val siswaId: String = checkNotNull(savedStateHandle["siswaId"])
+
+    var uiState by mutableStateOf(EditUiState(isLoadingData = true))
+        private set
+
+    init {
+        loadSiswa()
+    }
